@@ -23,10 +23,10 @@ Feature engineering/selection was performed by filtering out the highly variable
 
 ## Model Execution
 The models can be found in the Model folder. There are separate notebooks for each part of the encoder-decoder architecture that can be called as sklearn objects while compiling the code. 
-| Column 1 | Column 2 |
-| --- | --- |
-| ![Alt text](/model_architecture.png  "SAE-network") | Figure 1: Model Architecture|
-
+<figure>
+  <img src="/model_architecture.png" alt="A flowchart describing our network set-up">
+  <figcaption>Figure 1: Model Architecture</figcaption>
+</figure>
 
 Our project proposes two applications as implementations:
 -	**Application 1 - Predictive Model:** To predict whether a given sample based on gene expression, protein expression and DNA methylation data, is a normal or tumor sample for breast invasive carcinoma. This is made possible by our Model architecture as it learns patterns across all datasets for the patient and classifies the patient as normal or tumor. We have a basic Support Vector Machine (SVM) classifier that works as the classifier in this application. Please use Application_1.ipnyb from the Notebooks folder to execute this implementation.

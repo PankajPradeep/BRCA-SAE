@@ -5,14 +5,14 @@ This is a Stacked Autoencoder network that takes 3 multi-omic datasets, that is 
 This project aims to use a stacked autoencoder to integrate multiple types of omics data and identify potential biomarkers for breast invasive carcinoma. 
 **Goal: Design a multi-omic integration model that can transform more than 2 high - dimensional modalities into an interpretable latent space of low dimensions by performing better model validation tests for model functionality.
 ## Some Pre-requisites
-To get started, you will need to have the following installed on your machine:
-•	Python 3 and above 
-•	NumPy
-•	Pandas
-•	Scipy
-•	TensorFlow
-•	Keras
-•	Scikit-learn
+To get started, you will need to have the following installed on your machine: 
+- Python 3 and above 
+- NumPy
+- Pandas
+- Scipy
+- TensorFlow
+- Keras 
+- Scikit-learn
 ## Data
 The data used to train this SAE network is publicly available and was downloaded from https://artyomovlab.wustl.edu/phantasus/ which has TCGA data for each of the cancers. We downloaded three datasets – RNAseq gene expression, Proteomics Data, and DNA Methylation Data for Breast Invasive Carcinoma
 ## Introduction
